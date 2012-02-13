@@ -1,3 +1,5 @@
+// TODO: Remove all path references, convert all paths references into style classes
+
 // JavaScript Document
 function toogleBtn( target, behaviour )
 { 
