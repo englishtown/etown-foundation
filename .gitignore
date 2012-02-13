@@ -44,3 +44,4 @@ tmp
 test-result
 eclipse
 server.pid
+node_modules
