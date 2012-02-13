@@ -1,4 +1,3 @@
-
 /*
  * GET home page.
  */
@@ -20,11 +19,12 @@ exports.about = function(req, res) {
 };
 
 /*
- * GET contact page.
+ * GET Frontend Elements Library page.
  */
- 
-exports.contact = function(req, res) {
-  res.render('contact', {
-    title: 'Contact'
+
+exports.fei = function(req, res){
+  res.render('fei/index', {
+    title: 'Englishtown frontend elements library | 0.7',
+    author: 'Lorenzo Bousi'
   });
 };

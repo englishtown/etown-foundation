@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.overlay
+{
+	margin:20px;
+	width:840px;
+	height:670px;	
+    border: 20px solid;
+    border-color: #000;
+    border-color: rgba(0,0,0,.3);
+}
+.overlay #header
+{
+	width:100%;
+	height:115px;
+	background-image:url(../assets/patterns/aarea_header_bg.png);
+	background-repeat:repeat-x;
+}
+.overlay #aarea
+{
+	width:100%;
+	height:555px;
+	background-image:url(../assets/patterns/aarea_body_bg.png);
+}

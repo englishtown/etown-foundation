@@ -11,7 +11,10 @@ var app = module.exports = express.createServer();
 // Configuration
 
 app.configure(function(){
+  // sets location of views
   app.set('views', __dirname + '/views');
+  // sets which view engine to use, options: Haml, Jade, EJS, CofeeKup, jQuery Templates
+  // visit http://expressjs.com/guide.html#template-engines for more information
   app.set('view engine', 'jade');
   app.use(express.bodyParser());
   app.use(express.methodOverride());
@@ -33,6 +36,7 @@ app.configure('production', function(){
 app.get('/', routes.index);
 app.get('/about', routes.about);
 app.get('/contact', routes.contact);
+app.get('/fei', routes.fei);
 
 app.listen(3000);
 console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);

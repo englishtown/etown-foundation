@@ -1,0 +1,481 @@
+@charset "UTF-8";
+/* CSS Document */
+.btn
+{
+	float:left;
+}
+
+/*
+------------------------------------------------------------------------------------------------------------
+30PX HEIGHT RANKING BUTTON
+------------------------------------------------------------------------------------------------------------
+*/
+.btn .ranking
+{
+	/* btn height here.. */
+	height: 30px;
+	
+	/*btn background here.. */
+	background-image:url(../assets/buttons/grey_btn_bg_30px.png);
+	background-repeat:repeat-x;
+	background-color:#CCC;
+	
+	/* btn style */
+	font-family:Arial, Helvetica, sans-serif;
+	box-shadow: 1px 1px 10px #000000;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	behavior: url(../script/js/border-radius.htc);
+	border-radius: 4px;
+	
+	/* text style */
+	font-size:13px;
+	font-weight:normal;
+	text-shadow: 0px 1px 1px #fff;
+	color:#494949;
+	
+	padding-left:10px;
+	padding-right:10px;	
+}
+.btn .ranking a
+{
+	color:#494949;
+}
+.btn .ranking a:visited
+{
+	color:#494949;
+}
+
+/*  
+   [PLEASE NOTE] Manually fix vertical centering for IE6 with padding.
+   The padding-top value formula generically is: 
+   .btn .content height / 2 - .btn .content .off .icon / 2; 
+   (usually the icon is equal or bigger to the label text size)
+*/
+* html .ranking .standard .icon
+{ 
+	padding-top:8px;
+}
+* html .ranking .standard .label
+{ 
+	padding-top:7px;
+}
+
+/*
+------------------------------------------------------------------------------------------------------------
+30PX HEIGHT ORANGE BUTTON
+------------------------------------------------------------------------------------------------------------
+*/
+.btn .OrangeButton30px
+{
+	/* btn height here.. */
+	height: 30px;
+	
+	/*btn background here.. */
+	background-image:url(../assets/buttons/orange_btn_bg_30px.png);
+	background-repeat:repeat-x;
+	background-color:#CCC;
+	
+	/* btn style */
+	border: solid 1px #FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	box-shadow: 1px 1px 5px #000000;
+	-moz-border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-khtml-border-radius: 16px;
+	behavior: url(../script/js/border-radius.htc);
+	border-radius: 16px;
+	
+	/* text style */
+	font-size:13px;
+	font-weight:bold;
+	text-shadow: 0px 1px 1px #F30;
+	color:#FFF;
+	
+	padding-left:10px;
+	padding-right:10px;	
+}
+.btn .OrangeButton30px a
+{
+	color:#FFF;
+}
+.btn .OrangeButton30px a:visited
+{
+	color:#FFF;
+}
+.OrangeButton30px .icon
+{
+	padding-top:2px;
+}
+
+/*  
+   [PLEASE NOTE] Manually fix vertical centering for IE6 with padding.
+   The padding-top value formula generically is: 
+   .btn .content height / 2 - .btn .content .off .icon / 2; 
+   (usually the icon is equal or bigger to the label text size)
+*/
+* html .OrangeButton30px .standard .icon
+{ 
+	padding-top:8px;
+}
+* html .OrangeButton30px .standard .label
+{ 
+	padding-top:7px;
+}
+
+/*
+------------------------------------------------------------------------------------------------------------
+30PX HEIGHT GREY BUTTON
+------------------------------------------------------------------------------------------------------------
+*/
+.btn .GreyButton30px
+{
+	/* btn height here.. */
+	height: 30px;
+	
+	/*btn background here.. */
+	background-image:url(../assets/buttons/grey_btn_bg_30px.png);
+	background-repeat:repeat-x;
+	background-color:#CCC;
+	
+	/* btn style */
+	border: solid 1px #FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	box-shadow: 1px 1px 5px #000000;
+	-moz-border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-khtml-border-radius: 16px;
+	behavior: url(../script/js/border-radius.htc);
+	border-radius: 16px;
+	
+	/* text style */
+	font-size:13px;
+	font-weight:bold;
+	text-shadow: 0px 1px 1px #ffffff;
+	color:#494949;
+	
+	padding-left:10px;
+	padding-right:10px;	
+}
+.btn .GreyButton30px a
+{
+	color:#494949;
+}
+.btn .GreyButton30px a:visited
+{
+	color:#494949;
+}
+.GreyButton30px .icon
+{
+	padding-top:1px;
+}
+/*  
+   [PLEASE NOTE] Manually fix vertical centering for IE6 with padding.
+   The padding-top value formula generically is: 
+   .btn .content height / 2 - .btn .content .off .icon / 2; 
+   (usually the icon is equal or bigger to the label text size)
+*/
+* html .GreyButton30px .standard .icon
+{ 
+	padding-top:8px;
+}
+* html .GreyButton30px .standard .label
+{ 
+	padding-top:7px;
+}
+/*
+------------------------------------------------------------------------------------------------------------
+24PX HEIGHT GREY BUTTON
+------------------------------------------------------------------------------------------------------------
+*/
+.btn .GreyButton24px
+{
+	/* btn height here.. */
+	height: 24px;
+	
+	/*btn background here.. */
+	background-image:url(../assets/buttons/grey_btn_bg_24px.png);
+	background-repeat:repeat-x;
+	background-color:#CCC;
+	
+	/* btn style */
+	border: solid 1px #FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	box-shadow: 1px 1px 5px #000000;
+	-moz-border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-khtml-border-radius: 16px;
+	behavior: url(../script/js/border-radius.htc);
+	border-radius: 16px;
+	
+	/* text style */
+	font-size:11px;
+	font-weight:bold;
+	text-shadow: 0px 1px 1px #ffffff;
+	color:#494949;
+	
+	padding-left:10px;
+	padding-right:10px;	
+}
+.btn .GreyButton24px a
+{
+	color:#494949;
+}
+.btn .GreyButton24px a:visited
+{
+	color:#494949;
+}
+.GreyButton24px .label
+{
+	padding-top:1px;
+}
+
+/*  
+   [PLEASE NOTE] Manually fix vertical centering for IE6 with padding.
+   The padding-top value formula generically is: 
+   .btn .content height / 2 - .btn .content .off .icon / 2; 
+   (usually the icon is equal or bigger to the label text size)
+*/
+* html .GreyButton24px .standard .icon
+{ 
+	padding-top:5px;
+}
+* html .GreyButton24px .standard .label
+{ 
+	padding-top:5px;
+}
+
+/*
+------------------------------------------------------------------------------------------------------------
+22PX WHITE - GREY SWITCH BUTTON
+------------------------------------------------------------------------------------------------------------
+*/
+
+/* OFF status */
+
+.btn .WhiteSwitchButton22px_off
+{
+	/* btn height here.. */
+	height: 24px;
+	
+	/*btn background here.. */
+	background-color:#FFFFFF;
+	
+	/* btn style */
+	border: solid 1px #FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	box-shadow: 1px 1px 2px #000000;
+	-moz-border-radius: 14px;
+	-webkit-border-radius: 14px;
+	-khtml-border-radius: 14px;
+	behavior: url(../script/js/border-radius.htc);
+	border-radius: 14px;
+	
+	/* text style */
+	font-size:11px;
+	font-weight:normal;
+	color:#666666;
+	
+	padding-left:10px;
+	padding-right:10px;	
+}
+.btn .WhiteSwitchButton22px_off a
+{
+	color:#666666;
+}
+.btn .WhiteSwitchButton22px_off a:visited
+{
+	color:#666666;
+}
+.WhiteSwitchButton22px_off .standard .label
+{
+	float:left;
+	padding-top:1px;
+	padding-left:5px;
+}
+
+/*  
+   [PLEASE NOTE] Manually fix vertical centering for IE6 with padding.
+   The padding-top value formula generically is: 
+   .btn .content height / 2 - .btn .content .off .icon / 2; 
+   (usually the icon is equal or bigger to the label text size)
+*/
+* html .WhiteSwitchButton22px_off  .standard .icon
+{ 
+	padding-top:5px;
+}
+* html .WhiteSwitchButton22px_off  .standard .label
+{ 
+	padding-top:5px;
+}
+
+/* ON status */
+
+.btn .WhiteSwitchButton22px_on
+{
+	/* btn height here.. */
+	height: 24px;
+	
+	/*btn background here.. */
+	background-image:url(../assets/buttons/WhiteSwitchButton22px_off_bg.png);
+	background-repeat:repeat-x;
+	background-color:#CCC;
+	
+	/* btn style */
+	border: solid 1px #CCC;
+	font-family:Arial, Helvetica, sans-serif;
+	-moz-border-radius: 14px;
+	-webkit-border-radius: 14px;
+	-khtml-border-radius: 14px;
+	behavior: url(../script/js/border-radius.htc);
+	border-radius: 14px;
+	
+	/* text style */
+	font-size:11px;
+	font-weight:normal;
+	color:#666666;
+	text-shadow: 0px 1px 1px #ffffff;
+	
+	padding-left:10px;
+	padding-right:10px;	
+}
+.btn .WhiteSwitchButton22px_on a
+{
+	color:#666666;
+}
+.btn .WhiteSwitchButton22px_on a:visited
+{
+	color:#666666;
+}
+.WhiteSwitchButton22px_on .standard .label
+{
+	float:left;
+	padding-top:1px;
+	padding-left:5px;
+}
+
+/*  
+   [PLEASE NOTE] Manually fix vertical centering for IE6 with padding.
+   The padding-top value formula generically is: 
+   .btn .content height / 2 - .btn .content .off .icon / 2; 
+   (usually the icon is equal or bigger to the label text size)
+*/
+* html .WhiteSwitchButton22px_on  .standard .icon
+{ 
+	padding-top:5px;
+}
+* html .WhiteSwitchButton22px_on  .standard .label
+{ 
+	padding-top:5px;
+}
+
+/*
+------------------------------------------------------------------------------------------------------------
+help toggle button
+------------------------------------------------------------------------------------------------------------
+*/
+
+.help_btn
+{
+	width:24px;
+	height:18px;
+	overflow:hidden;
+}
+.help_btn img.off
+{
+	margin-top:0px;
+}
+.help_btn img.on
+{
+	margin-top:-18px;
+}
+
+/*
+------------------------------------------------------------------------------------------------------------
+23px open close toggle button
+------------------------------------------------------------------------------------------------------------
+*/
+
+.max_min_btn23px
+{
+	width:21px;
+	height:23px;
+	overflow:hidden;
+}
+.max_min_btn23px img.off
+{
+	margin-top:0px;
+}
+.max_min_btn23px img.on
+{
+	margin-top:-23px;
+}
+
+/*
+------------------------------------------------------------------------------------------------------------
+SHARED CLASSES
+------------------------------------------------------------------------------------------------------------
+*/
+.btn .content
+{
+	/* vertical align */
+	display:table-cell;
+	vertical-align:middle;
+}
+.btn a
+{
+	text-decoration:none;
+}
+.btn .content .standard 
+{
+	float:left;
+}
+.btn .content .standard .icon
+{
+	float:left;
+}
+.btn .content .standard .label
+{
+	float:left;
+}
+.btn .content .standard .label.left
+{
+	padding-right:5px;
+}
+.btn .content .standard .label.right
+{
+	padding-left:5px;
+}
+/* fix IE 6, 7 width fix */
+* html .btn .content 
+{ 
+	float:left;
+}
+
+/*
+------------------------------------------------------------------------------------------------------------
+IE FIX
+------------------------------------------------------------------------------------------------------------
+*/
+
+/* fix IE 6, 7 png transparency */
+* html img,
+
+* html .png{
+
+    position:relative;
+
+    behavior: expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+
+        this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+
+        this.src = "assets/transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+
+        this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+
+        this.runtimeStyle.backgroundImage = "none")),this.pngSet=true)
+
+    );
+
+}

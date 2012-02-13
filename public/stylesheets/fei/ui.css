@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.ranking_btn
+{
+	width:47px;
+	height:21px;
+	padding-top:2px;
+}
+
+.ranking_btn.on
+{
+	background-image:url(../assets/UI/ranking_btn_bg_1.png);
+	text-shadow: 0px 1px 1px #6cae00;
+	color:#FFF;
+	text-align:right;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.ranking_btn.off
+{
+	background-image:url(../assets/UI/ranking_btn_bg_2.png);
+	text-shadow: 0px 1px 1px #636363;
+	color:#FFF;
+	text-align:right;
+	font-size:16px;
+	font-weight:bold;
+}

@@ -148,7 +148,7 @@ dl {
 li,
 dd,
 dt {
-  font-size: 1em;
+  font: 1em 'ChunkFiveRegular';
 }
 a {
   text-decoration: underline;
@@ -213,7 +213,7 @@ header {
 }
 header nav {
   width: 960px;
-  text-align: right;
+  text-align: left;
   margin-left: auto;
   margin-right: auto;
 }

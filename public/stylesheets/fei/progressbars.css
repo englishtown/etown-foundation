@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.social_quiz_progressbar_1
+{
+	width:340px;
+	height:21px;
+	background-image:url(../assets/patterns/pb_bg_2.png);
+	overflow:hidden;
+	
+	/*
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-khtml-border-radius: 12px;
+	behavior: url(../script/js/border-radius.htc);
+	border-radius: 12px;
+	*/
+}
+.social_quiz_progressbar_1 #bar
+{
+	width:100px;
+	height:20px;
+	background-image:url(../assets/patterns/pb_bar_1.png);
+}
