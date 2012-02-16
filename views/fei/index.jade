@@ -5,13 +5,20 @@ mixin attribute(key, value)
   h2 #{key}:
     strong.intro  #{value}
 
-mixin typography(id, heading, style, html)
+mixin category(category)
+  li.category
+    h1 #{category}
+
+mixin typography(type, heading, style, html)
   li.feature
-    h2.description
-      strong #{id} 
-    #{heading}
-    div(class='stdff playarea_color_header_1 ' + style).
-    #{html}
+    div.description
+      strong.description #{type}
+      h2.description #{heading}
+    span(class='stdff playarea_color_header_1 ' + style).
+    | #{html}
+
+mixin button(type, text, image)
+  h2. test
 
 img(src='/images/fei/logo.png')
 .header
@@ -21,14 +28,18 @@ img(src='/images/fei/logo.png')
   mixin attribute("Last revision by", last_revision_by)
   mixin header(introduction)
 
-ul.categories
-  li.category
-    h1 Typography
-    ul.features
-      mixin typography('-tpg001', 'Social Quiz body title 1', 'title_1 shading_cutout_1', 'Welcome to the live game')
-      mixin typography('-tpg002', 'Social Quiz body text 1', 'body_1 shading_cutout_1', 'Englishtown introduces a way for you to practice English together with your fellow students. You can play it as often as you like.' )
-      mixin typography('-tpg003', 'Social Quiz header title 1', 'title_1 shading_hover_1', '<span class="light_note">Level </span>5 <span class="light_note">Unit </span>7 Talking to a Police officer' )
-      mixin typography('-tpg004', 'Social Quiz question word', 'mega_title_1 shading_cutout_1', 'Cloud')
-    h1 Buttons
-    ul.features
-      li.feature
+//- ul.categories
+//-   mixin category('Typography')
+//-     ul.features
+//-       mixin typography('-tpg001', 'Social Quiz body title 1', 'title_1 shading_cutout_1', 'Welcome to the live game')
+//-       mixin typography('-tpg002', 'Social Quiz body text 1', 'body_1 shading_cutout_1', 'Englishtown introduces a way for you to practice English together with your fellow students. You can play it as often as you like.' )
+//-       mixin typography('-tpg003', 'Social Quiz header title 1', 'title_1 shading_hover_1', '<span class="light_note">Level </span>5 <span class="light_note">Unit </span>7 Talking to a Police officer' )
+//-       
+//-       mixin typography('-tpg004', 'Social Quiz question word', 'mega_title_1 shading_cutout_1', 'Cloud')
+//-     h1 Buttons
+//-     ul.features
+//-       li.feature
+      
+      
+
+| #{page.categories[0].name}

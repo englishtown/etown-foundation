@@ -1,0 +1,68 @@
+{
+    "categories": [
+        {
+            "name": "Typography",
+            "items": [
+                {
+                    "type": "-tpg001",
+                    "heading": "Social Quiz body title 1",
+                    "style": "title_1 shading_cutout_1",
+                    "html": "Welcome to the live game"
+                },
+                {
+                    "type": "-tpg002",
+                    "heading": "Social Quiz body text 1",
+                    "style": "body_1 shading_cutout_1",
+                    "html": "Englishtown introduces a way for you to practice English together with your fellow students. You can play it as often as you like."
+                },
+                {
+                    "type": "-tpg003",
+                    "heading": "Social Quiz header title 1",
+                    "style": "title_1 shading_hover_1",
+                    "html": "<span class='light_note'>Level </span>5 <span class='light_note'>Unit </span>7 Talking to a Police officer"
+                },
+                {
+                    "type": "-tpg004",
+                    "heading": "Social Quiz question word",
+                    "style": "mega_title_1 shading_cutout_1",
+                    "html": "Cloud"
+                }
+            ]
+        },
+        {
+            "name": "Status Buttons",
+            "items": [
+                {
+                    "type": "-btn001",
+                    "heading": "Social: individual ranking button",
+                    "image": "individual_ranking_off.png",
+                    "text": "Welcome to the live game"
+                },
+                {
+                    "type": "-btn002",
+                    "heading": "xxx",
+                    "image": "xxx.png",
+                    "text": "xxx"
+                },
+                {
+                    "type": "-btn003",
+                    "heading": "xxx",
+                    "image": "xxx.png",
+                    "text": "xxx"
+                },
+                {
+                    "type": "-btn004",
+                    "heading": "xxx",
+                    "image": "xxx",
+                    "text": "Welcome to the live game"
+                },
+                {
+                    "type": "-btn005",
+                    "heading": "xxx",
+                    "image": "xxx",
+                    "text": "xxx"
+                }
+            ]
+        }
+    ]
+}

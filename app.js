@@ -3,10 +3,11 @@
  * Module dependencies.
  */
 
-var express = require('express')
-  , routes = require('./routes')
-
+var express = require('express'), 
+    routes = require('./routes');
+    
 var app = module.exports = express.createServer();
+
 
 // Configuration
 
@@ -37,7 +38,7 @@ app.get('/', routes.index);
 app.get('/about', routes.about);
 app.get('/contact', routes.contact);
 app.get('/fei', routes.fei);
-app.get('/dev', routes.dev);
+// app.get('/dev', routes.dev);
 
 
 app.listen(3000);
