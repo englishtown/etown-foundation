@@ -2,6 +2,7 @@
 html
   head
     title= title
+    link(rel='stylesheet', href='/stylesheets/fei/style.css')
     link(rel='stylesheet', href='/stylesheets/fei/typography.css')
     link(rel='stylesheet', href='/stylesheets/fei/overlay.css')
     link(rel='stylesheet', href='/stylesheets/fei/ui.css')
@@ -14,4 +15,4 @@ html
     script(type='text/javascript',src='/javascripts/fei/toggleButton.jQuery.js')
     script(type='text/javascript',src='/javascripts/fei/app.js')
   body
-    h1 Body
+  section#wrapper!= body

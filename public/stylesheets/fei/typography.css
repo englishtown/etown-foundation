@@ -1,16 +1,11 @@
-// TODO: Fix links to static files
-
 @charset "UTF-8";
 /* CSS Document */
 
 body
 {
 	font-family:Arial, Helvetica, sans-serif;
-	background-color:#AAA;
-	background-image:url(_private/assets/bg_pattern.png);
-	margin:40px;
-	padding:0;
 }
+
 h1
 {
 	text-shadow: 0px 1px 1px #ffffff;
@@ -19,6 +14,7 @@ h1
 	font-weight:bold;
 	margin:0px;
 }
+
 h2
 {
 	text-shadow: 0px 1px 1px #ffffff;
@@ -27,21 +23,29 @@ h2
 	font-weight:normal;
 	margin:0;
 }
-.frontend_library_title
+
+.category h1
 {
 	text-shadow: 0px 1px 1px #000000;
 	color:#FFFFFF;
-	background-color:#aaaaaa;
-	font-size:24px;
+  background-color:#aaaaaa;
+	font-size: 1.4em;
 	font-weight:normal;
-	height:80px;
+	padding:1em;	
+  
 }
-.frontend_library_desc
+
+.feature 
+{
+  border-bottom: solid 1px #888;
+}
+
+.feature h2.description
 {
 	color:#666666;
 	text-shadow: 0px 1px 1px #ffffff;
 	font-size:11px;
-	border-bottom:solid 1px #888;
+	margin-bottom:;
 }
 
 .ranking_btn
@@ -53,7 +57,7 @@ h2
 
 .ranking_btn.on
 {
-	background-image:url(../assets/UI/ranking_btn_bg_1.png);
+	background-image:url(/images/fei/UI/ranking_btn_bg_1.png);
 	text-shadow: 0px 1px 1px #6cae00;
 	color:#FFF;
 	text-align:right;
@@ -63,7 +67,7 @@ h2
 
 .ranking_btn.off
 {
-	background-image:url(../assets/UI/ranking_btn_bg_2.png);
+	background-image:url(/images/fei/UI/ranking_btn_bg_2.png);
 	text-shadow: 0px 1px 1px #636363;
 	color:#FFF;
 	text-align:right;
@@ -88,7 +92,6 @@ h2
 {
 	opacity:0.5;
 }
-
 
 .mega_title_1
 {
@@ -115,4 +118,11 @@ h2
 .playarea_color_header_1
 {
 	color:#FFF;
+}
+
+/*
+Typography layout
+-------------------------------------------------------*/
+strong.intro   {
+  margin-left: 0.5em;
 }

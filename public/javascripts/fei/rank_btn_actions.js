@@ -1,4 +1,5 @@
 // TODO: Remove all path references, convert all paths references into style classes
+// NOTE: all broken references should be fixed
 
 // JavaScript Document
 function toogleBtn( target, behaviour )
@@ -11,12 +12,12 @@ function toogleBtn( target, behaviour )
 		//replace the img src
 		if ( $(target).attr( 'id' ) == "individual" )
 		{
-			$( $(target).children('.off').children('.icon').children('img')[0] ).attr('src', 'assets/coverFlow/individual_ranking_on.png');
+			$( $(target).children('.off').children('.icon').children('img')[0] ).attr('src', '/images/fei/icons/individual_ranking_on.png');
 			radioTarget = "#team";
 		}
 		else
 		{
-			$( $(target).children('.off').children('.icon').children('img')[0] ).attr('src', 'assets/coverFlow/team_ranking_on.png');
+			$( $(target).children('.off').children('.icon').children('img')[0] ).attr('src', '/images/fei/icons/team_ranking_on.png');
 			radioTarget = "#individual";
 		}
 		
@@ -29,12 +30,12 @@ function toogleBtn( target, behaviour )
 		//replace the img src
 		if ( $(target).attr( 'id' ) == "individual" )
 		{
-			$( $(target).children('.on').children('.icon').children('img')[0] ).attr('src', 'assets/coverFlow/individual_ranking_off.png');
+			$( $(target).children('.on').children('.icon').children('img')[0] ).attr('src', '/images/fei/icons/individual_ranking_off.png');
 			radioTarget = "#team";
 		}
 		else
 		{
-			$( $(target).children('.on').children('.icon').children('img')[0] ).attr('src', 'assets/coverFlow/team_ranking_off.png');
+			$( $(target).children('.on').children('.icon').children('img')[0] ).attr('src', '/images/fei/icons/team_ranking_off.png');
 			radioTarget = "#individual";
 		}
 		

@@ -1,0 +1,8 @@
+mixin featureCategory(heading)
+  li.category
+    h1 #{heading}
+
+mixin typographyFeature(heading, feature, featureStyle)
+  li.feature
+    h2 #{heading}
+    div(class=featureStyle) #{feature}

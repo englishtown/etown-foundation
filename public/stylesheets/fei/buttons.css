@@ -1,10 +1,8 @@
-// TODO: Fix links to static files
-
 @charset "UTF-8";
 /* CSS Document */
 .btn
 {
-	float:left;
+/*  float:left;*/
 }
 
 /*
@@ -18,7 +16,7 @@
 	height: 30px;
 	
 	/*btn background here.. */
-	background-image:url(../assets/buttons/grey_btn_bg_30px.png);
+	background-image:url(/images/fei/buttons/grey_btn_bg_30px.png);
 	background-repeat:repeat-x;
 	background-color:#CCC;
 	
@@ -28,7 +26,7 @@
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	-khtml-border-radius: 4px;
-	behavior: url(../script/js/border-radius.htc);
+	behavior: url(/javascripts/fei/border-radius.htc);
 	border-radius: 4px;
 	
 	/* text style */
@@ -75,7 +73,7 @@
 	height: 30px;
 	
 	/*btn background here.. */
-	background-image:url(../assets/buttons/orange_btn_bg_30px.png);
+	background-image:url(/images/fei/buttons/orange_btn_bg_30px.png);
 	background-repeat:repeat-x;
 	background-color:#CCC;
 	
@@ -86,7 +84,7 @@
 	-moz-border-radius: 16px;
 	-webkit-border-radius: 16px;
 	-khtml-border-radius: 16px;
-	behavior: url(../script/js/border-radius.htc);
+	behavior: url(/javascripts/fei/border-radius.htc);
 	border-radius: 16px;
 	
 	/* text style */
@@ -137,7 +135,7 @@
 	height: 30px;
 	
 	/*btn background here.. */
-	background-image:url(../assets/buttons/grey_btn_bg_30px.png);
+	background-image:url(/images/fei/buttons/grey_btn_bg_30px.png);
 	background-repeat:repeat-x;
 	background-color:#CCC;
 	
@@ -148,7 +146,7 @@
 	-moz-border-radius: 16px;
 	-webkit-border-radius: 16px;
 	-khtml-border-radius: 16px;
-	behavior: url(../script/js/border-radius.htc);
+	behavior: url(/javascripts/fei//border-radius.htc);
 	border-radius: 16px;
 	
 	/* text style */
@@ -197,7 +195,7 @@
 	height: 24px;
 	
 	/*btn background here.. */
-	background-image:url(../assets/buttons/grey_btn_bg_24px.png);
+	background-image:url(/images/fei/buttons/grey_btn_bg_24px.png);
 	background-repeat:repeat-x;
 	background-color:#CCC;
 	
@@ -208,7 +206,7 @@
 	-moz-border-radius: 16px;
 	-webkit-border-radius: 16px;
 	-khtml-border-radius: 16px;
-	behavior: url(../script/js/border-radius.htc);
+	behavior: url(/javascripts/fei//border-radius.htc);
 	border-radius: 16px;
 	
 	/* text style */
@@ -271,7 +269,7 @@
 	-moz-border-radius: 14px;
 	-webkit-border-radius: 14px;
 	-khtml-border-radius: 14px;
-	behavior: url(../script/js/border-radius.htc);
+	behavior: url(/javascripts/fei/border-radius.htc);
 	border-radius: 14px;
 	
 	/* text style */
@@ -320,7 +318,7 @@
 	height: 24px;
 	
 	/*btn background here.. */
-	background-image:url(../assets/buttons/WhiteSwitchButton22px_off_bg.png);
+	background-image:url(/images/fei/buttons/WhiteSwitchButton22px_off_bg.png);
 	background-repeat:repeat-x;
 	background-color:#CCC;
 	
@@ -330,7 +328,7 @@
 	-moz-border-radius: 14px;
 	-webkit-border-radius: 14px;
 	-khtml-border-radius: 14px;
-	behavior: url(../script/js/border-radius.htc);
+	behavior: url(/javascripts/fei/border-radius.htc);
 	border-radius: 14px;
 	
 	/* text style */
@@ -472,7 +470,7 @@ IE FIX
 
         this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
 
-        this.src = "assets/transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+        this.src = "/images/fei/transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
 
         this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
 

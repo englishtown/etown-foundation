@@ -1,5 +1,3 @@
-// TODO: Fix links to static files
-
 @charset "UTF-8";
 /* CSS Document */
 
@@ -16,12 +14,12 @@
 {
 	width:100%;
 	height:115px;
-	background-image:url(../assets/patterns/aarea_header_bg.png);
+	background-image:url(/images/fei/patterns/aarea_header_bg.png);
 	background-repeat:repeat-x;
 }
 .overlay #aarea
 {
 	width:100%;
 	height:555px;
-	background-image:url(../assets/patterns/aarea_body_bg.png);
+	background-image:url(/images/fei/patterns/aarea_body_bg.png);
 }

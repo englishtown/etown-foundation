@@ -1,5 +1,3 @@
-// TODO: Fix links to static files
-
 @charset "UTF-8";
 /* CSS Document */
 
@@ -12,7 +10,7 @@
 
 .ranking_btn.on
 {
-	background-image:url(../assets/UI/ranking_btn_bg_1.png);
+	background-image:url(/images/fei/UI/ranking_btn_bg_1.png);
 	text-shadow: 0px 1px 1px #6cae00;
 	color:#FFF;
 	text-align:right;
@@ -22,7 +20,7 @@
 
 .ranking_btn.off
 {
-	background-image:url(../assets/UI/ranking_btn_bg_2.png);
+	background-image:url(/images/fei/UI/ranking_btn_bg_2.png);
 	text-shadow: 0px 1px 1px #636363;
 	color:#FFF;
 	text-align:right;
